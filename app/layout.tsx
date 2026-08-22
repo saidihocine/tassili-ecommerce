@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import '../styles/globals.css'
 
 export const metadata: Metadata = {
-  title: 'TASSILI E-Commerce',
-  description: 'Platform for TASSILI products',
+  title: 'متجر تاسيلي - Tassili E-Commerce',
+  description: 'أفضل المنتجات بأسعار مميزة',
 }
 
 export default function RootLayout({
@@ -12,7 +12,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="ar" dir="rtl">
       <body>{children}</body>
     </html>
   )
